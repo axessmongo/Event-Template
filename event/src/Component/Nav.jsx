@@ -368,8 +368,7 @@ function Nav() {
                   <div class="right-content">
                     <h4>Radio City Musical Hall</h4>
                     <p>
-                      Lorem ipsum dolor sit amet, consectetur vinzi iscing elit,
-                      sed doers kontra.
+                      Radio City Music Hall, located in New York City, is renowned for hosting a variety of events, including concerts, theater performances, and the famous Radio City Christmas Spectacular featuring the Rockettes
                     </p>
                   </div>
                 </div>
@@ -389,8 +388,7 @@ function Nav() {
                   <div class="right-content">
                     <h4>Madison Square Garden</h4>
                     <p>
-                      Lorem ipsum dolor sit amet, consectetur vinzi iscing elit,
-                      sed doers kontra.
+                      Madison Square Garden, situated in New York City, is a historic arena renowned for hosting major sporting events, concerts featuring top artists, and historic other entertainment spectacles.
                     </p>
                   </div>
                 </div>
@@ -410,8 +408,7 @@ function Nav() {
                   <div class="right-content">
                     <h4>Royce Hall</h4>
                     <p>
-                      Lorem ipsum dolor sit amet, consectetur vinzi iscing elit,
-                      sed doers kontra.
+                      Royce Hall, located on the campus of the University of California, Los Angeles (UCLA), is a prominent venue known for its stunning Romanesque architecture and cultural significance.
                     </p>
                   </div>
                 </div>
@@ -434,8 +431,7 @@ function Nav() {
                 <div class="right-content">
                   <h4>Radio City Musical Hall</h4>
                   <p>
-                    Lorem ipsum dolor sit amet, consectetur vinzi iscing elit,
-                    sed doers kontra.
+                  Radio City Music Hall, located in New York City, is renowned for hosting a variety of events, including concerts, theater performances, and the famous Radio City Christmas Spectacular featuring the Rockettes
                   </p>
                 </div>
               </div>
@@ -455,8 +451,7 @@ function Nav() {
                 <div class="right-content">
                   <h4>Madison Square Garden</h4>
                   <p>
-                    Lorem ipsum dolor sit amet, consectetur vinzi iscing elit,
-                    sed doers kontra.
+                    Madison Square Garden, situated in New York City, is a historic arena renowned for hosting major sporting events, concerts featuring top artists, and historic other entertainment spectacles.
                   </p>
                 </div>
               </div>
@@ -476,8 +471,7 @@ function Nav() {
                 <div class="right-content">
                   <h4>Royce Hall</h4>
                   <p>
-                    Lorem ipsum dolor sit amet, consectetur vinzi iscing elit,
-                    sed doers kontra.
+                  Royce Hall, located on the campus of the University of California, Los Angeles (UCLA), is a prominent is venue known for its stunning Romanesque architecture and cultural significance.
                   </p>
                 </div>
               </div>

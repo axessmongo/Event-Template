@@ -9,7 +9,7 @@ function Footer() {
           <div className="col-lg-4">
             <div className="address">
               <h4>Sunny Hill Festival Address</h4>
-              <span>5 College St NW, <br />Norcross, GA 30071<br />United States</span>
+              <span>5 College St NW, <br />chennai<br /></span>
             </div>
           </div>
           <div className="col-lg-4">
@@ -38,11 +38,11 @@ function Footer() {
             <div className="under-footer">
               <div className="row">
                 <div className="col-lg-6">
-                  <p>São Conrado, Rio de Janeiro</p>
+                  {/* <p>São Conrado, Rio de Janeiro</p> */}
                 </div>
                 <div className="col-lg-6">
                   <p className="copyright">Copyright 2021 Event Excellences Company<br />
-                    Design: <a rel="nofollow" href="https://www.tooplate.com" target="_parent">Tooplate</a></p>
+                   </p>
                 </div>
               </div>
             </div>
