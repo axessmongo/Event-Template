@@ -20,13 +20,13 @@ function Nav() {
             <div className="col-12">
               <nav className="main-nav fixed-top bg-white">
                 {/* ***** Logo Start ***** */}
-                <div className="d-flex ">
-                  <div className="d-flex ">
+                
+                  
                     <img src={logo} className="img-fluid logo1" alt="" />
                     <a href="index.html" className="logo">
-                      Event<em> Excellence</em>
+                      {/* Event<em> Excellence</em> */}
                     </a>
-                  </div>
+                 
 
                   {/* ***** Logo End ***** */}
                   {/* ***** Menu Start ***** */}
@@ -43,16 +43,16 @@ function Nav() {
                       <a href="#rent">Rent Venue</a>
                     </li>
                     <li>
-                      <a href="shows">Shows & Events</a>
+                      <a href="#shows">Shows & Events</a>
                     </li>
                     <li>
-                      <a href="tickets">Tickets</a>
+                      <a href="#tickets">Tickets</a>
                     </li>
                   </ul>
                   <a className="menu-trigger">
                     <span>Menu</span>
                   </a>
-                </div>
+                
                 {/* ***** Menu End ***** */}
               </nav>
             </div>
@@ -127,7 +127,7 @@ function Nav() {
             </div>
           </div>
         </div>
-        <div class="also-like">
+        <div class="also-like" id="shows">
           <div class="container">
             <div class="row">
               <div class="col-lg-12">
@@ -346,7 +346,7 @@ function Nav() {
       </div>
       {/* amazing end */}
       {/* venue start */}
-      <div class="venue-tickets">
+      <div class="venue-tickets" id="tickets">
         <div class="container-fluid">
           <div class="row">
             <div class="col-lg-12">

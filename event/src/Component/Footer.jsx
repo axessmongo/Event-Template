@@ -41,7 +41,7 @@ function Footer() {
                   {/* <p>São Conrado, Rio de Janeiro</p> */}
                 </div>
                 <div className="col-lg-6">
-                  <p className="copyright">Copyright 2021 Event Excellences Company<br />
+                  <p className="copyright">Copyright 2021 Event Excellence Company<br />
                    </p>
                 </div>
               </div>
@@ -53,7 +53,7 @@ function Footer() {
                 <div className="col-lg-4">
                   <div className='d-flex'>
                   <img src={logo} className='logo1' alt="" />
-                  <div className="logo mt-3"><span>Event<em> Excellence</em></span></div>
+                  <div className="logo mt-3"></div>
                   </div>
                 </div>
                 <div className="col-lg-6">
