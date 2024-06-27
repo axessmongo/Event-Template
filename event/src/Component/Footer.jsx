@@ -51,7 +51,7 @@ function Footer() {
             <div className="sub-footer">
               <div className="row">
                 <div className="col-lg-4">
-                  <div className="logo"><span>Event<em> Management</em></span></div>
+                  <div className="logo"><span>Event<em> Excellence</em></span></div>
                 </div>
                 <div className="col-lg-6">
                   <div className="menu">

@@ -1,4 +1,10 @@
-
+.logo1{
+  width: 100px;
+  height: 100px;
+}
+.navmenu{
+  margin-right: 20px;
+}
 .clearfix:after {
   content: ".";
   display: block;
