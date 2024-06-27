@@ -1,5 +1,5 @@
 import React from 'react'
-
+import logo from "../assets/images/logo.png";
 function Footer() {
   return (
     <div>
@@ -51,7 +51,10 @@ function Footer() {
             <div className="sub-footer">
               <div className="row">
                 <div className="col-lg-4">
-                  <div className="logo"><span>Event<em> Excellence</em></span></div>
+                  <div className='d-flex'>
+                  <img src={logo} className='logo1' alt="" />
+                  <div className="logo mt-3"><span>Event<em> Excellence</em></span></div>
+                  </div>
                 </div>
                 <div className="col-lg-6">
                   <div className="menu">
