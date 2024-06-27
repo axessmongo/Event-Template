@@ -41,7 +41,7 @@ function Footer() {
                   <p>São Conrado, Rio de Janeiro</p>
                 </div>
                 <div className="col-lg-6">
-                  <p className="copyright">Copyright 2021 ArtXibition Company<br />
+                  <p className="copyright">Copyright 2021 Event Excellences Company<br />
                     Design: <a rel="nofollow" href="https://www.tooplate.com" target="_parent">Tooplate</a></p>
                 </div>
               </div>
