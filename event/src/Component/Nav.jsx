@@ -20,37 +20,39 @@ function Nav() {
             <div className="col-12">
               <nav className="main-nav fixed-top bg-white">
                 {/* ***** Logo Start ***** */}
-                <div className="d-flex ">
-                  <div className=" ">
-                    <img src={logo} className="img-fluid logo1" alt="" />
-                    
-                  </div>
 
-                  {/* ***** Logo End ***** */}
-                  {/* ***** Menu Start ***** */}
-                  <ul className="nav mx-5 px-5 ">
-                    <li>
-                      <a href="./" className="active">
-                        Home
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#about">About Us</a>
-                    </li>
-                    <li>
-                      <a href="#rent">Rent Venue</a>
-                    </li>
-                    <li>
-                      <a href="shows">Shows & Events</a>
-                    </li>
-                    <li>
-                      <a href="tickets">Tickets</a>
-                    </li>
-                  </ul>
-                  <a className="menu-trigger">
-                    <span>Menu</span>
-                  </a>
-                </div>
+
+                <img src={logo} className="img-fluid logo1" alt="" />
+                <a href="index.html" className="logo">
+                  {/* Event<em> Excellence</em> */}
+                </a>
+
+
+                {/* ***** Logo End ***** */}
+                {/* ***** Menu Start ***** */}
+                <ul className="nav mx-5 px-5 ">
+                  <li>
+                    <a href="./" className="active">
+                      Home
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#about">About Us</a>
+                  </li>
+                  <li>
+                    <a href="#rent">Rent Venue</a>
+                  </li>
+                  <li>
+                    <a href="#shows">Shows & Events</a>
+                  </li>
+                  <li>
+                    <a href="#tickets">Tickets</a>
+                  </li>
+                </ul>
+                <a className="menu-trigger">
+                  <span>Menu</span>
+                </a>
+
                 {/* ***** Menu End ***** */}
               </nav>
             </div>
@@ -77,26 +79,27 @@ function Nav() {
       </div>
       {/* banner end */}
       {/* about start */}
-      <div className=" pb-5 pt-3" id="about">
-        <div class="about-upcoming-shows">
+      <div className=" pb-5 pt-3 aboutbg" id="about">
+        
+        <div class="about-upcoming-shows ">
           <div class="container">
-            <div class="row">
-              <div class="col-lg-9">
-                <h2>About The Upcoming Show</h2>
-                <p>
-                  <p>
+            <div class="row ">
+              <div class="col-lg-9 text-white">
+                <h2 className="text-white">About The Upcoming Show</h2>
+             
+                  <p className="text-white">
                     Celebrate Independence Day 2024 with a spectacular showcase
                     of cultural performances and patriotic festivities.
                   </p>
-                </p>
-                <h4>Items That Are Restricted</h4>
+               
+                <h4 className="text-white">Items That Are Restricted</h4>
                 <ul>
                   <li>* Outside food and beverages</li>
                   <li>* Weapons and sharp objects</li>
                   <li>* Large bags or backpacks</li>
                 </ul>
-                <h4>Directions & Car Parking</h4>
-                <p>
+                <h4 className="text-white">Directions & Car Parking</h4>
+                <p className="text-white">
                   Find hassle-free directions and convenient parking options for
                   Independence Day celebrations 2024.
                 </p>
@@ -125,7 +128,7 @@ function Nav() {
             </div>
           </div>
         </div>
-        <div class="also-like">
+        <div class="also-like" id="shows">
           <div class="container">
             <div class="row">
               <div class="col-lg-12">
@@ -225,62 +228,47 @@ function Nav() {
       {/* about end */}
       {/* amazing start */}
 
-      <div id="rent">
-        <div className="amazing-venues">
+      <div id="rent" className="venuebg ">
+        <div className="amazing-venues ">
           <div className="container">
-            <div className="row">
+            <div className="row py-5">
               <div className="col-lg-9">
-                <div className="left-content">
-                  <h4>Three Amazing Venues for events</h4>
-                  <p>
+                <div className="left-content ">
+                  <h4 className="text-white">Three Amazing Venues for events</h4>
+                  <p className="text-white">
                     <span className="fw-bold">Chennai Trade Centre:</span> Known
                     for its spacious halls and modern amenities, ideal for
                     exhibitions, conferences, and large-scale events.
                   </p>
-                  <p>
+                  <p className="text-white">
                     <span className="fw-bold">IC Hotel:</span> Offers elegant
                     banquet halls and outdoor spaces with a scenic view, perfect
                     for weddings, corporate events, and parties.
                   </p>
-                  <p>
+                  <p className="text-white">
                     <span className="fw-bold">ITC Grand Chola:</span> Known for
                     its luxurious ambiance and sophisticated event spaces,
                     suitable for upscale weddings, conferences, and gala
                     dinners.
                   </p>
                   <br />
-                  <p>
-                    You can use this event template for your commercial or
-                    business website. You are not permitted to redistribute this
-                    template ZIP file on any template download website. If you
-                    need the latest REACT templates, you may visit{" "}
-                    <a
-                      href="https://www.toocss.com/"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      Too CSS
-                    </a>{" "}
-                    website that features a great collection of templates in
-                    different categories.
-                  </p>
+                  
                 </div>
               </div>
               <div className="col-lg-3">
-                <div className="right-content">
-                  <h5>
+                <div className="right-content ">
+                  <h5 className="text-white">
                     <i className="fa fa-map-marker"></i> Visit Us
                   </h5>
-                  <span>
-                    5 College St NW, <br />
-                    Norcross, GA 30071
+                  <span className="text-white">
+                    No:122 cross st,
                     <br />
-                    United States
+                    Chennai - 600113.
                   </span>
                   <div className="text-button">
-                    <a href="show-events-details.html">
+                    {/* <a href="show-events-details.html">
                       Need Directions? <i className="fa fa-arrow-right"></i>
-                    </a>
+                    </a> */}
                   </div>
                 </div>
               </div>
@@ -291,11 +279,11 @@ function Nav() {
           <img src={map} alt="Maps of 3 Venues" />
         </div> */}
         <section id="Contact">
-          <section class="common-padding" id="location">
+          <section class="common-padding py-4" id="location">
             <div class="container">
               <div class="text-center">
                 <h4
-                  className="heading10 mt-5 text-center"
+                  className="heading10 mt-5 text-white text-center"
                   style={{ color: "black" }}
                 >
                   {" "}
@@ -311,11 +299,14 @@ function Nav() {
                     data-aos-anchor-placement="bottom-bottom"
                   >
                     <iframe
-                      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!13887.7228006895866!2d80.24859830000001!3d12.9895733!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a525d48aabc65c1%3A0x6f54da323bd9c8d0!2sATIT!5e0!3m2!1sen!2sin!4v1703158465961!5m2!1sen!2sin"
-                      allowfullscreen=""
+                      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3887.7227190712715!2d80.24602337412057!3d12.989578514485803!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a525d6202e54fb9%3A0xcf5fc0aac9108c7e!2sTIDEL%20Park%2C%20Rajiv%20Gandhi%20IT%20Expy%2C%20Tharamani%2C%20Chennai%2C%20Tamil%20Nadu%20600113!5e0!3m2!1sen!2sin!4v1719554341137!5m2!1sen!2sin"
+                      width="600"
+                      height="450"
+                      style={{ border: 0 }}
+                      allowFullScreen=""
                       loading="lazy"
-                      style={{ width: "100%", height: "450px", border: "0" }}
-                      referrerpolicy="no-referrer-when-downgrade"
+                      referrerPolicy="no-referrer-when-downgrade"
+                      title="TIDEL Park Map"
                     ></iframe>
                   </div>
                 </div>
@@ -329,9 +320,9 @@ function Nav() {
                       <div class="d-inline-block py-3 px-5 shadow-1 text-center col-10">
                         <h4 class="new-header text-dark mb-2">Visit Us</h4>
                         <p class="primary-text text-dark">
-                          xxxxxx,
+                          No:122 cross st
                           <br />
-                          xxxxxxxx Chennai - 600113.
+                          Chennai - 600113.
                         </p>
                       </div>
                     </div>
@@ -344,7 +335,7 @@ function Nav() {
       </div>
       {/* amazing end */}
       {/* venue start */}
-      <div class="venue-tickets">
+      <div class="venue-tickets" id="tickets">
         <div class="container-fluid">
           <div class="row">
             <div class="col-lg-12">
@@ -366,8 +357,7 @@ function Nav() {
                   <div class="right-content">
                     <h4>Radio City Musical Hall</h4>
                     <p>
-                      Lorem ipsum dolor sit amet, consectetur vinzi iscing elit,
-                      sed doers kontra.
+                      Radio City Music Hall, located in New York City, is renowned for hosting a variety of events, including concerts, theater performances, and the famous Radio City Christmas Spectacular featuring the Rockettes
                     </p>
                   </div>
                 </div>
@@ -387,8 +377,7 @@ function Nav() {
                   <div class="right-content">
                     <h4>Madison Square Garden</h4>
                     <p>
-                      Lorem ipsum dolor sit amet, consectetur vinzi iscing elit,
-                      sed doers kontra.
+                      Madison Square Garden, situated in New York City, is a historic arena renowned for hosting major sporting events, concerts featuring top artists, and historic other entertainment spectacles.
                     </p>
                   </div>
                 </div>
@@ -408,8 +397,7 @@ function Nav() {
                   <div class="right-content">
                     <h4>Royce Hall</h4>
                     <p>
-                      Lorem ipsum dolor sit amet, consectetur vinzi iscing elit,
-                      sed doers kontra.
+                      Royce Hall, located on the campus of the University of California, Los Angeles (UCLA), is a prominent venue known for its stunning Romanesque architecture and cultural significance.
                     </p>
                   </div>
                 </div>
@@ -432,8 +420,7 @@ function Nav() {
                 <div class="right-content">
                   <h4>Radio City Musical Hall</h4>
                   <p>
-                    Lorem ipsum dolor sit amet, consectetur vinzi iscing elit,
-                    sed doers kontra.
+                    Radio City Music Hall, located in New York City, is renowned for hosting a variety of events, including concerts, theater performances, and the famous Radio City Christmas Spectacular featuring the Rockettes
                   </p>
                 </div>
               </div>
@@ -453,8 +440,7 @@ function Nav() {
                 <div class="right-content">
                   <h4>Madison Square Garden</h4>
                   <p>
-                    Lorem ipsum dolor sit amet, consectetur vinzi iscing elit,
-                    sed doers kontra.
+                    Madison Square Garden, situated in New York City, is a historic arena renowned for hosting major sporting events, concerts featuring top artists, and historic other entertainment spectacles.
                   </p>
                 </div>
               </div>
@@ -474,8 +460,7 @@ function Nav() {
                 <div class="right-content">
                   <h4>Royce Hall</h4>
                   <p>
-                    Lorem ipsum dolor sit amet, consectetur vinzi iscing elit,
-                    sed doers kontra.
+                    Royce Hall, located on the campus of the University of California, Los Angeles (UCLA), is a prominent is venue known for its stunning Romanesque architecture and cultural significance.
                   </p>
                 </div>
               </div>
