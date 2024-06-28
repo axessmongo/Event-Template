@@ -274,14 +274,14 @@ function Nav() {
                     <i className="fa fa-map-marker"></i> Visit Us
                   </h5>
                   <span>
-                    5 College St NW,
+                    No:122 cross st,
                     <br />
-                    chennai
+                    Chennai - 600113.
                   </span>
                   <div className="text-button">
-                    <a href="show-events-details.html">
+                    {/* <a href="show-events-details.html">
                       Need Directions? <i className="fa fa-arrow-right"></i>
-                    </a>
+                    </a> */}
                   </div>
                 </div>
               </div>
