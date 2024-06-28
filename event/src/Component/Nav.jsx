@@ -21,11 +21,9 @@ function Nav() {
               <nav className="main-nav fixed-top bg-white">
                 {/* ***** Logo Start ***** */}
                 <div className="d-flex ">
-                  <div className="d-flex ">
+                  <div className=" ">
                     <img src={logo} className="img-fluid logo1" alt="" />
-                    <a href="index.html" className="logo">
-                      Event<em> Excellence</em>
-                    </a>
+                    
                   </div>
 
                   {/* ***** Logo End ***** */}
