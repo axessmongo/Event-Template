@@ -56,14 +56,13 @@ function Amazing() {
                 </h5>
                 <span>
                   5 College St NW, <br />
-                  Norcross, GA 30071
-                  <br />
-                  United States
+                  Chennai
+                
                 </span>
                 <div className="text-button">
-                  <a href="show-events-details.html">
+                  {/* <a href="show-events-details.html">
                     Need Directions? <i className="fa fa-arrow-right"></i>
-                  </a>
+                  </a> */}
                 </div>
               </div>
             </div>
