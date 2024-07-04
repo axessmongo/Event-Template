@@ -261,9 +261,9 @@ function Nav() {
                     <i className="fa fa-map-marker"></i> Visit Us
                   </h5>
                   <span className="text-white">
-                    No:122 cross st,
+                
                     <br />
-                    Chennai - 600113.
+                    Chennai
                   </span>
                   <div className="text-button">
                     {/* <a href="show-events-details.html">
@@ -320,9 +320,9 @@ function Nav() {
                       <div class="d-inline-block py-3 px-5 shadow-1 text-center col-10">
                         <h4 class="new-header text-dark mb-2">Visit Us</h4>
                         <p class="primary-text text-dark">
-                          No:122 cross st
+                         
                           <br />
-                          Chennai - 600113.
+                          Chennai 
                         </p>
                       </div>
                     </div>

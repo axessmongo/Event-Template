@@ -9,8 +9,8 @@ function Footer() {
             <div className="col-lg-4">
               <div className="address">
                 <h4>Sunny Hill Festival Address</h4>
-                <span>No:122 cross st,
-                  <br />Chennai - 600113.<br /></span>
+                <span>
+                  <br />Chennai<br /></span>
               </div>
             </div>
             <div className="col-lg-4">

@@ -55,7 +55,7 @@ function Amazing() {
                   <i className="fa fa-map-marker"></i> Visit Us
                 </h5>
                 <span>
-                  5 College St NW, <br />
+                 <br />
                   Chennai
                 
                 </span>
